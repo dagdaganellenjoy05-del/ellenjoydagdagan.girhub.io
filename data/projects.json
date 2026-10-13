@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Student Portfolio",
+    "description": "A personal website that introduces me and shows my skills and projects.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Designer and Developer",
+    "screenshot": "portfolio.png",
+    "github": "https://github.com/",
+    "demo": ""
+  },
+  {
+    "title": "Digit Counter",
+    "description": "A Java program that counts the digits of a positive integer using a while loop.",
+    "technologies": ["Java"],
+    "role": "Programmer",
+    "screenshot": "digit-counter.png",
+    "github": "https://github.com/",
+    "demo": ""
+  },
+  {
+    "title": "Student Attendance System",
+    "description": "A project concept for recording and organizing student attendance.",
+    "technologies": ["HTML", "CSS", "Java"],
+    "role": "Student Developer",
+    "screenshot": "attendance.png",
+    "github": "https://github.com/",
+    "demo": ""
+  }
+]
