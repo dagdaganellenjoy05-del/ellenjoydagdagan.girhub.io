@@ -221,3 +221,14 @@ footer {
         grid-template-columns: 1fr;
     }
   }
+body, nav, #home, section {
+    background-color: pink !important;
+}
+
+.home-content h2 {
+    color: deeppink !important;
+}
+
+.btn {
+    background-color: deeppink !important;
+}
