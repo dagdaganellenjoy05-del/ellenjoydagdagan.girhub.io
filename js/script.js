@@ -162,3 +162,22 @@ function setupContactForm() {
         form.reset();
     });
 }
+// Back to Top feature
+const topButton = document.getElementById("back-to-top");
+
+if (topButton) {
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            topButton.style.display = "block";
+        } else {
+            topButton.style.display = "none";
+        }
+    });
+
+    topButton.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+}
